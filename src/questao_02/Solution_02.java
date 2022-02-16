@@ -29,13 +29,14 @@ public class Solution_02 {
     // 3.1) percorri os elementos do array de regexes para buscar correspondência destes com a senha informada pelo usuário. a cada falta de correspondência, será adicionado 1 ao número de caracteres requeridos
     // 3.2) por fim, caso o número de caracteres faltantes para alcançar 6 seja superior ao número de caracteres requeridos para atender os requisitos específicos da senha até então, o número de caracteres requeridos passará a ser aquele armanezado em caracteres faltantes
     public int checkPassword(String password){
+        missingChars = missingChars - password.length();
 
         for (Pattern regex : regexList) {
             if (!regex.matcher(password).matches())
                 requiredChars++;
         }
 
-        if (missingChars - password.length() > requiredChars)
+        if ((missingChars ) > requiredChars)
             requiredChars = missingChars;
 
         return requiredChars;
