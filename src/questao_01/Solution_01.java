@@ -23,5 +23,3 @@ public class Solution_01 {
         return pyramid;
     }
 }
-
-//String.format("%"+n+"s%n", pyramid);
