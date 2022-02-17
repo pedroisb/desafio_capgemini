@@ -11,11 +11,11 @@ Respositório contendo soluções para os desafios propostos no processo seletiv
 - Instale uma IDE apta a rodar programas em Java: Recomendo IntelliJ, porém há outras boas IDEs, como Eclipse
 - Instale o JDK 17: Pode ser encontrado no site oficial da Oracle. Alternativamente, o OpenJDK é uma excelente alternativa
 - Clone este repositório: Utilize o comando ```git clone https://github.com/pedroisb/desafio_capgemini.git```
-- Inicie a IDE, selecione na qual se encontra os arquivos clonados e abra
+- Inicie a IDE, selecione a pasta na qual se encontram os arquivos clonados e abra
 - Instale as dependências utilizando Maven
-- Selecione a resolução da questão desejada a partir da pasta src e da sleeção de um dos 3 packages contendo as respectivas questões
+- Selecione a resolução da questão desejada a partir da pasta src e da seleção de um dos 3 packages contendo as respectivas questões
 - Execute Run na classe Main da questão desejada
-- Caso deseje executar os casos de teste existentes, selecione a pasta test e o package correspondente à questão desejada. Então, execute o comando Run 
+- Caso deseje executar os casos de teste existentes, selecione a pasta test e o package correspondente à questão pretendida. Então, execute o comando Run 
 
 
 ## Questão 01
